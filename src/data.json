@@ -1,0 +1,2064 @@
+{
+  "vuosi": 2024,
+  "lahde": "Tilastokeskus, StatFin 14jt (varhaiskasvatus)",
+  "kokoMaa": {
+    "kaikki": 233772,
+    "vk": 32520,
+    "osuus": 13.9
+  },
+  "kuntienMediaani": 4.3,
+  "epavarmaRaja": 50,
+  "kunnat": [
+    {
+      "kunta": "Akaa",
+      "kaikki": 552,
+      "vk": 14,
+      "osuus": 2.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Alajärvi",
+      "kaikki": 371,
+      "vk": 16,
+      "osuus": 4.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Alavieska",
+      "kaikki": 103,
+      "vk": 4,
+      "osuus": 3.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Alavus",
+      "kaikki": 466,
+      "vk": 14,
+      "osuus": 3.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Asikkala",
+      "kaikki": 251,
+      "vk": 5,
+      "osuus": 2.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Askola",
+      "kaikki": 211,
+      "vk": 6,
+      "osuus": 2.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Aura",
+      "kaikki": 210,
+      "vk": 3,
+      "osuus": 1.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Enonkoski",
+      "kaikki": 37,
+      "vk": 1,
+      "osuus": 2.7,
+      "epavarma": true
+    },
+    {
+      "kunta": "Enontekiö",
+      "kaikki": 36,
+      "vk": 3,
+      "osuus": 8.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Espoo",
+      "kaikki": 16928,
+      "vk": 4959,
+      "osuus": 29.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Eura",
+      "kaikki": 356,
+      "vk": 21,
+      "osuus": 5.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Eurajoki",
+      "kaikki": 343,
+      "vk": 11,
+      "osuus": 3.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Evijärvi",
+      "kaikki": 81,
+      "vk": 1,
+      "osuus": 1.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Forssa",
+      "kaikki": 529,
+      "vk": 105,
+      "osuus": 19.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Haapajärvi",
+      "kaikki": 241,
+      "vk": 7,
+      "osuus": 2.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Haapavesi",
+      "kaikki": 257,
+      "vk": 12,
+      "osuus": 4.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hailuoto",
+      "kaikki": 24,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Halsua",
+      "kaikki": 28,
+      "vk": 4,
+      "osuus": 14.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Hamina",
+      "kaikki": 614,
+      "vk": 60,
+      "osuus": 9.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hankasalmi",
+      "kaikki": 109,
+      "vk": 1,
+      "osuus": 0.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hanko",
+      "kaikki": 228,
+      "vk": 8,
+      "osuus": 3.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Harjavalta",
+      "kaikki": 239,
+      "vk": 12,
+      "osuus": 5.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hartola",
+      "kaikki": 53,
+      "vk": 3,
+      "osuus": 5.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hattula",
+      "kaikki": 369,
+      "vk": 6,
+      "osuus": 1.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hausjärvi",
+      "kaikki": 291,
+      "vk": 9,
+      "osuus": 3.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Heinola",
+      "kaikki": 425,
+      "vk": 37,
+      "osuus": 8.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Heinävesi",
+      "kaikki": 44,
+      "vk": 4,
+      "osuus": 9.1,
+      "epavarma": true
+    },
+    {
+      "kunta": "Helsinki",
+      "kaikki": 30870,
+      "vk": 7313,
+      "osuus": 23.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hirvensalmi",
+      "kaikki": 48,
+      "vk": 3,
+      "osuus": 6.2,
+      "epavarma": true
+    },
+    {
+      "kunta": "Hollola",
+      "kaikki": 949,
+      "vk": 44,
+      "osuus": 4.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Huittinen",
+      "kaikki": 338,
+      "vk": 26,
+      "osuus": 7.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Humppila",
+      "kaikki": 76,
+      "vk": 2,
+      "osuus": 2.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hyrynsalmi",
+      "kaikki": 47,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Hyvinkää",
+      "kaikki": 1898,
+      "vk": 239,
+      "osuus": 12.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hämeenkyrö",
+      "kaikki": 440,
+      "vk": 6,
+      "osuus": 1.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Hämeenlinna",
+      "kaikki": 2700,
+      "vk": 308,
+      "osuus": 11.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ii",
+      "kaikki": 479,
+      "vk": 2,
+      "osuus": 0.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Iisalmi",
+      "kaikki": 751,
+      "vk": 55,
+      "osuus": 7.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Iitti",
+      "kaikki": 233,
+      "vk": 2,
+      "osuus": 0.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ikaalinen",
+      "kaikki": 196,
+      "vk": 18,
+      "osuus": 9.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ilmajoki",
+      "kaikki": 724,
+      "vk": 11,
+      "osuus": 1.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ilomantsi",
+      "kaikki": 68,
+      "vk": 4,
+      "osuus": 5.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Imatra",
+      "kaikki": 543,
+      "vk": 44,
+      "osuus": 8.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Inari",
+      "kaikki": 210,
+      "vk": 16,
+      "osuus": 7.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Inkoo",
+      "kaikki": 189,
+      "vk": 8,
+      "osuus": 4.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Isojoki",
+      "kaikki": 44,
+      "vk": 6,
+      "osuus": 13.6,
+      "epavarma": true
+    },
+    {
+      "kunta": "Isokyrö",
+      "kaikki": 121,
+      "vk": 4,
+      "osuus": 3.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Janakkala",
+      "kaikki": 699,
+      "vk": 32,
+      "osuus": 4.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Joensuu",
+      "kaikki": 2923,
+      "vk": 290,
+      "osuus": 9.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Jokioinen",
+      "kaikki": 174,
+      "vk": 7,
+      "osuus": 4.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Joroinen",
+      "kaikki": 157,
+      "vk": 15,
+      "osuus": 9.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Joutsa",
+      "kaikki": 105,
+      "vk": 3,
+      "osuus": 2.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Juuka",
+      "kaikki": 84,
+      "vk": 7,
+      "osuus": 8.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Juupajoki",
+      "kaikki": 54,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Juva",
+      "kaikki": 149,
+      "vk": 8,
+      "osuus": 5.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Jyväskylä",
+      "kaikki": 6263,
+      "vk": 578,
+      "osuus": 9.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Jämijärvi",
+      "kaikki": 53,
+      "vk": 2,
+      "osuus": 3.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Jämsä",
+      "kaikki": 490,
+      "vk": 34,
+      "osuus": 6.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Järvenpää",
+      "kaikki": 2271,
+      "vk": 219,
+      "osuus": 9.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kaarina",
+      "kaikki": 2118,
+      "vk": 138,
+      "osuus": 6.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kaavi",
+      "kaikki": 44,
+      "vk": 1,
+      "osuus": 2.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kajaani",
+      "kaikki": 1222,
+      "vk": 148,
+      "osuus": 12.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kalajoki",
+      "kaikki": 573,
+      "vk": 27,
+      "osuus": 4.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kangasala",
+      "kaikki": 1769,
+      "vk": 54,
+      "osuus": 3.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kangasniemi",
+      "kaikki": 156,
+      "vk": 6,
+      "osuus": 3.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kankaanpää",
+      "kaikki": 429,
+      "vk": 51,
+      "osuus": 11.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kannonkoski",
+      "kaikki": 37,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kannus",
+      "kaikki": 200,
+      "vk": 3,
+      "osuus": 1.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Karijoki",
+      "kaikki": 29,
+      "vk": 2,
+      "osuus": 6.9,
+      "epavarma": true
+    },
+    {
+      "kunta": "Karkkila",
+      "kaikki": 257,
+      "vk": 33,
+      "osuus": 12.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Karstula",
+      "kaikki": 88,
+      "vk": 7,
+      "osuus": 8.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Karvia",
+      "kaikki": 56,
+      "vk": 6,
+      "osuus": 10.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kaskinen",
+      "kaikki": 41,
+      "vk": 17,
+      "osuus": 41.5,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kauhajoki",
+      "kaikki": 356,
+      "vk": 23,
+      "osuus": 6.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kauhava",
+      "kaikki": 492,
+      "vk": 43,
+      "osuus": 8.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kauniainen",
+      "kaikki": 605,
+      "vk": 85,
+      "osuus": 14.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kaustinen",
+      "kaikki": 167,
+      "vk": 7,
+      "osuus": 4.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Keitele",
+      "kaikki": 58,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kemi",
+      "kaikki": 479,
+      "vk": 40,
+      "osuus": 8.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kemijärvi",
+      "kaikki": 190,
+      "vk": 13,
+      "osuus": 6.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Keminmaa",
+      "kaikki": 311,
+      "vk": 5,
+      "osuus": 1.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kemiönsaari",
+      "kaikki": 200,
+      "vk": 10,
+      "osuus": 5.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kempele",
+      "kaikki": 1331,
+      "vk": 6,
+      "osuus": 0.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kerava",
+      "kaikki": 1850,
+      "vk": 482,
+      "osuus": 26.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Keuruu",
+      "kaikki": 262,
+      "vk": 17,
+      "osuus": 6.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kihniö",
+      "kaikki": 35,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kinnula",
+      "kaikki": 71,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kirkkonummi",
+      "kaikki": 2204,
+      "vk": 313,
+      "osuus": 14.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kitee",
+      "kaikki": 234,
+      "vk": 31,
+      "osuus": 13.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kittilä",
+      "kaikki": 292,
+      "vk": 18,
+      "osuus": 6.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kiuruvesi",
+      "kaikki": 320,
+      "vk": 10,
+      "osuus": 3.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kivijärvi",
+      "kaikki": 34,
+      "vk": 1,
+      "osuus": 2.9,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kokemäki",
+      "kaikki": 217,
+      "vk": 7,
+      "osuus": 3.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kokkola",
+      "kaikki": 2334,
+      "vk": 187,
+      "osuus": 8.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kolari",
+      "kaikki": 161,
+      "vk": 4,
+      "osuus": 2.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Konnevesi",
+      "kaikki": 72,
+      "vk": 2,
+      "osuus": 2.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kontiolahti",
+      "kaikki": 786,
+      "vk": 7,
+      "osuus": 0.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Korsnäs",
+      "kaikki": 68,
+      "vk": 14,
+      "osuus": 20.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Koski Tl",
+      "kaikki": 76,
+      "vk": 1,
+      "osuus": 1.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kotka",
+      "kaikki": 1661,
+      "vk": 237,
+      "osuus": 14.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kouvola",
+      "kaikki": 2589,
+      "vk": 196,
+      "osuus": 7.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kristiinankaupunki",
+      "kaikki": 220,
+      "vk": 30,
+      "osuus": 13.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kruunupyy",
+      "kaikki": 276,
+      "vk": 10,
+      "osuus": 3.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kuhmo",
+      "kaikki": 163,
+      "vk": 7,
+      "osuus": 4.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kuhmoinen",
+      "kaikki": 43,
+      "vk": 1,
+      "osuus": 2.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kuopio",
+      "kaikki": 5360,
+      "vk": 464,
+      "osuus": 8.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kuortane",
+      "kaikki": 108,
+      "vk": 4,
+      "osuus": 3.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kurikka",
+      "kaikki": 705,
+      "vk": 20,
+      "osuus": 2.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kustavi",
+      "kaikki": 17,
+      "vk": 1,
+      "osuus": 5.9,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kuusamo",
+      "kaikki": 465,
+      "vk": 20,
+      "osuus": 4.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kyyjärvi",
+      "kaikki": 31,
+      "vk": 1,
+      "osuus": 3.2,
+      "epavarma": true
+    },
+    {
+      "kunta": "Kärkölä",
+      "kaikki": 77,
+      "vk": 2,
+      "osuus": 2.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Kärsämäki",
+      "kaikki": 98,
+      "vk": 1,
+      "osuus": 1.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lahti",
+      "kaikki": 4768,
+      "vk": 592,
+      "osuus": 12.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Laihia",
+      "kaikki": 290,
+      "vk": 8,
+      "osuus": 2.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Laitila",
+      "kaikki": 295,
+      "vk": 51,
+      "osuus": 17.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lapinjärvi",
+      "kaikki": 75,
+      "vk": 7,
+      "osuus": 9.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lapinlahti",
+      "kaikki": 288,
+      "vk": 10,
+      "osuus": 3.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lappajärvi",
+      "kaikki": 0,
+      "vk": 0,
+      "osuus": null,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lappeenranta",
+      "kaikki": 2601,
+      "vk": 304,
+      "osuus": 11.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lapua",
+      "kaikki": 601,
+      "vk": 45,
+      "osuus": 7.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Laukaa",
+      "kaikki": 1039,
+      "vk": 15,
+      "osuus": 1.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lemi",
+      "kaikki": 98,
+      "vk": 1,
+      "osuus": 1.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lempäälä",
+      "kaikki": 1106,
+      "vk": 29,
+      "osuus": 2.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Leppävirta",
+      "kaikki": 326,
+      "vk": 12,
+      "osuus": 3.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lestijärvi",
+      "kaikki": 13,
+      "vk": 1,
+      "osuus": 7.7,
+      "epavarma": true
+    },
+    {
+      "kunta": "Lieksa",
+      "kaikki": 221,
+      "vk": 36,
+      "osuus": 16.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lieto",
+      "kaikki": 1130,
+      "vk": 49,
+      "osuus": 4.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Liminka",
+      "kaikki": 713,
+      "vk": 6,
+      "osuus": 0.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Liperi",
+      "kaikki": 524,
+      "vk": 12,
+      "osuus": 2.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Lohja",
+      "kaikki": 1735,
+      "vk": 140,
+      "osuus": 8.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Loimaa",
+      "kaikki": 543,
+      "vk": 45,
+      "osuus": 8.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Loppi",
+      "kaikki": 286,
+      "vk": 14,
+      "osuus": 4.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Loviisa",
+      "kaikki": 497,
+      "vk": 28,
+      "osuus": 5.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Luhanka",
+      "kaikki": 10,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Lumijoki",
+      "kaikki": 100,
+      "vk": 8,
+      "osuus": 8.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Luoto",
+      "kaikki": 373,
+      "vk": 12,
+      "osuus": 3.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Luumäki",
+      "kaikki": 131,
+      "vk": 14,
+      "osuus": 10.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Maalahti",
+      "kaikki": 287,
+      "vk": 18,
+      "osuus": 6.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Marttila",
+      "kaikki": 79,
+      "vk": 1,
+      "osuus": 1.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Masku",
+      "kaikki": 505,
+      "vk": 17,
+      "osuus": 3.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Merijärvi",
+      "kaikki": 23,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Merikarvia",
+      "kaikki": 99,
+      "vk": 3,
+      "osuus": 3.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Miehikkälä",
+      "kaikki": 41,
+      "vk": 3,
+      "osuus": 7.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Mikkeli",
+      "kaikki": 1928,
+      "vk": 156,
+      "osuus": 8.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Muhos",
+      "kaikki": 426,
+      "vk": 5,
+      "osuus": 1.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Multia",
+      "kaikki": 37,
+      "vk": 3,
+      "osuus": 8.1,
+      "epavarma": true
+    },
+    {
+      "kunta": "Muonio",
+      "kaikki": 69,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Mustasaari",
+      "kaikki": 1095,
+      "vk": 25,
+      "osuus": 2.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Muurame",
+      "kaikki": 514,
+      "vk": 8,
+      "osuus": 1.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Mynämäki",
+      "kaikki": 333,
+      "vk": 21,
+      "osuus": 6.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Myrskylä",
+      "kaikki": 46,
+      "vk": 2,
+      "osuus": 4.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Mäntsälä",
+      "kaikki": 915,
+      "vk": 59,
+      "osuus": 6.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Mänttä-Vilppula",
+      "kaikki": 251,
+      "vk": 17,
+      "osuus": 6.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Mäntyharju",
+      "kaikki": 117,
+      "vk": 7,
+      "osuus": 6.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Naantali",
+      "kaikki": 813,
+      "vk": 32,
+      "osuus": 3.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Nakkila",
+      "kaikki": 155,
+      "vk": 3,
+      "osuus": 1.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Nivala",
+      "kaikki": 438,
+      "vk": 6,
+      "osuus": 1.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Nokia",
+      "kaikki": 1805,
+      "vk": 62,
+      "osuus": 3.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Nousiainen",
+      "kaikki": 240,
+      "vk": 4,
+      "osuus": 1.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Nurmes",
+      "kaikki": 265,
+      "vk": 8,
+      "osuus": 3.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Nurmijärvi",
+      "kaikki": 2259,
+      "vk": 243,
+      "osuus": 10.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Närpiö",
+      "kaikki": 378,
+      "vk": 124,
+      "osuus": 32.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Orimattila",
+      "kaikki": 638,
+      "vk": 23,
+      "osuus": 3.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Oripää",
+      "kaikki": 49,
+      "vk": 5,
+      "osuus": 10.2,
+      "epavarma": true
+    },
+    {
+      "kunta": "Orivesi",
+      "kaikki": 293,
+      "vk": 5,
+      "osuus": 1.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Oulainen",
+      "kaikki": 213,
+      "vk": 7,
+      "osuus": 3.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Oulu",
+      "kaikki": 10367,
+      "vk": 843,
+      "osuus": 8.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Outokumpu",
+      "kaikki": 173,
+      "vk": 26,
+      "osuus": 15.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Padasjoki",
+      "kaikki": 47,
+      "vk": 1,
+      "osuus": 2.1,
+      "epavarma": true
+    },
+    {
+      "kunta": "Paimio",
+      "kaikki": 611,
+      "vk": 28,
+      "osuus": 4.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Paltamo",
+      "kaikki": 93,
+      "vk": 4,
+      "osuus": 4.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Parainen",
+      "kaikki": 677,
+      "vk": 36,
+      "osuus": 5.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Parikkala",
+      "kaikki": 97,
+      "vk": 1,
+      "osuus": 1.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Parkano",
+      "kaikki": 207,
+      "vk": 12,
+      "osuus": 5.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pedersören kunta",
+      "kaikki": 659,
+      "vk": 23,
+      "osuus": 3.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pelkosenniemi",
+      "kaikki": 30,
+      "vk": 2,
+      "osuus": 6.7,
+      "epavarma": true
+    },
+    {
+      "kunta": "Pello",
+      "kaikki": 80,
+      "vk": 2,
+      "osuus": 2.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Perho",
+      "kaikki": 114,
+      "vk": 2,
+      "osuus": 1.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pertunmaa",
+      "kaikki": 37,
+      "vk": 1,
+      "osuus": 2.7,
+      "epavarma": true
+    },
+    {
+      "kunta": "Petäjävesi",
+      "kaikki": 181,
+      "vk": 2,
+      "osuus": 1.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pieksämäki",
+      "kaikki": 541,
+      "vk": 70,
+      "osuus": 12.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pielavesi",
+      "kaikki": 79,
+      "vk": 1,
+      "osuus": 1.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pietarsaari",
+      "kaikki": 824,
+      "vk": 224,
+      "osuus": 27.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pihtipudas",
+      "kaikki": 84,
+      "vk": 3,
+      "osuus": 3.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pirkkala",
+      "kaikki": 910,
+      "vk": 37,
+      "osuus": 4.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Polvijärvi",
+      "kaikki": 139,
+      "vk": 1,
+      "osuus": 0.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pomarkku",
+      "kaikki": 72,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pori",
+      "kaikki": 3023,
+      "vk": 215,
+      "osuus": 7.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pornainen",
+      "kaikki": 229,
+      "vk": 5,
+      "osuus": 2.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Porvoo",
+      "kaikki": 2427,
+      "vk": 248,
+      "osuus": 10.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Posio",
+      "kaikki": 21,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Pudasjärvi",
+      "kaikki": 206,
+      "vk": 5,
+      "osuus": 2.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pukkila",
+      "kaikki": 47,
+      "vk": 1,
+      "osuus": 2.1,
+      "epavarma": true
+    },
+    {
+      "kunta": "Punkalaidun",
+      "kaikki": 51,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Puolanka",
+      "kaikki": 45,
+      "vk": 5,
+      "osuus": 11.1,
+      "epavarma": true
+    },
+    {
+      "kunta": "Puumala",
+      "kaikki": 39,
+      "vk": 1,
+      "osuus": 2.6,
+      "epavarma": true
+    },
+    {
+      "kunta": "Pyhtää",
+      "kaikki": 65,
+      "vk": 3,
+      "osuus": 4.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pyhäjoki",
+      "kaikki": 92,
+      "vk": 2,
+      "osuus": 2.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pyhäjärvi",
+      "kaikki": 146,
+      "vk": 9,
+      "osuus": 6.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pyhäntä",
+      "kaikki": 88,
+      "vk": 6,
+      "osuus": 6.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pyhäranta",
+      "kaikki": 83,
+      "vk": 1,
+      "osuus": 1.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pälkäne",
+      "kaikki": 171,
+      "vk": 5,
+      "osuus": 2.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Pöytyä",
+      "kaikki": 305,
+      "vk": 18,
+      "osuus": 5.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Raahe",
+      "kaikki": 890,
+      "vk": 54,
+      "osuus": 6.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Raasepori",
+      "kaikki": 1173,
+      "vk": 71,
+      "osuus": 6.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Raisio",
+      "kaikki": 1224,
+      "vk": 206,
+      "osuus": 16.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Rantasalmi",
+      "kaikki": 71,
+      "vk": 5,
+      "osuus": 7.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ranua",
+      "kaikki": 128,
+      "vk": 2,
+      "osuus": 1.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Rauma",
+      "kaikki": 1424,
+      "vk": 170,
+      "osuus": 11.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Rautalampi",
+      "kaikki": 75,
+      "vk": 6,
+      "osuus": 8.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Rautavaara",
+      "kaikki": 19,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Rautjärvi",
+      "kaikki": 63,
+      "vk": 17,
+      "osuus": 27.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Reisjärvi",
+      "kaikki": 88,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Riihimäki",
+      "kaikki": 1024,
+      "vk": 107,
+      "osuus": 10.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ristijärvi",
+      "kaikki": 33,
+      "vk": 2,
+      "osuus": 6.1,
+      "epavarma": true
+    },
+    {
+      "kunta": "Rovaniemi",
+      "kaikki": 3257,
+      "vk": 197,
+      "osuus": 6.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ruokolahti",
+      "kaikki": 112,
+      "vk": 3,
+      "osuus": 2.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ruovesi",
+      "kaikki": 109,
+      "vk": 10,
+      "osuus": 9.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Rusko",
+      "kaikki": 436,
+      "vk": 15,
+      "osuus": 3.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Rääkkylä",
+      "kaikki": 17,
+      "vk": 2,
+      "osuus": 11.8,
+      "epavarma": true
+    },
+    {
+      "kunta": "Saarijärvi",
+      "kaikki": 258,
+      "vk": 10,
+      "osuus": 3.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Salla",
+      "kaikki": 28,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Salo",
+      "kaikki": 1786,
+      "vk": 248,
+      "osuus": 13.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sastamala",
+      "kaikki": 740,
+      "vk": 28,
+      "osuus": 3.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sauvo",
+      "kaikki": 107,
+      "vk": 8,
+      "osuus": 7.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Savitaipale",
+      "kaikki": 84,
+      "vk": 4,
+      "osuus": 4.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Savonlinna",
+      "kaikki": 838,
+      "vk": 60,
+      "osuus": 7.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Savukoski",
+      "kaikki": 30,
+      "vk": 1,
+      "osuus": 3.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Seinäjoki",
+      "kaikki": 3241,
+      "vk": 233,
+      "osuus": 7.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sievi",
+      "kaikki": 200,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Siikainen",
+      "kaikki": 21,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Siikajoki",
+      "kaikki": 166,
+      "vk": 4,
+      "osuus": 2.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Siikalatva",
+      "kaikki": 111,
+      "vk": 2,
+      "osuus": 1.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Siilinjärvi",
+      "kaikki": 1140,
+      "vk": 16,
+      "osuus": 1.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Simo",
+      "kaikki": 66,
+      "vk": 1,
+      "osuus": 1.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sipoo",
+      "kaikki": 976,
+      "vk": 64,
+      "osuus": 6.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Siuntio",
+      "kaikki": 237,
+      "vk": 20,
+      "osuus": 8.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sodankylä",
+      "kaikki": 238,
+      "vk": 4,
+      "osuus": 1.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Soini",
+      "kaikki": 54,
+      "vk": 1,
+      "osuus": 1.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Somero",
+      "kaikki": 272,
+      "vk": 30,
+      "osuus": 11.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sonkajärvi",
+      "kaikki": 105,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sotkamo",
+      "kaikki": 161,
+      "vk": 17,
+      "osuus": 10.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sulkava",
+      "kaikki": 63,
+      "vk": 1,
+      "osuus": 1.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Suomussalmi",
+      "kaikki": 157,
+      "vk": 17,
+      "osuus": 10.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Suonenjoki",
+      "kaikki": 176,
+      "vk": 2,
+      "osuus": 1.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Sysmä",
+      "kaikki": 35,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Säkylä",
+      "kaikki": 78,
+      "vk": 10,
+      "osuus": 12.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Taipalsaari",
+      "kaikki": 176,
+      "vk": 10,
+      "osuus": 5.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Taivalkoski",
+      "kaikki": 107,
+      "vk": 1,
+      "osuus": 0.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Taivassalo",
+      "kaikki": 62,
+      "vk": 5,
+      "osuus": 8.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Tammela",
+      "kaikki": 223,
+      "vk": 5,
+      "osuus": 2.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Tampere",
+      "kaikki": 10198,
+      "vk": 1580,
+      "osuus": 15.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Tervo",
+      "kaikki": 20,
+      "vk": 1,
+      "osuus": 5.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Tervola",
+      "kaikki": 115,
+      "vk": 4,
+      "osuus": 3.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Teuva",
+      "kaikki": 148,
+      "vk": 3,
+      "osuus": 2.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Tohmajärvi",
+      "kaikki": 101,
+      "vk": 1,
+      "osuus": 1.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Toholampi",
+      "kaikki": 90,
+      "vk": 3,
+      "osuus": 3.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Toivakka",
+      "kaikki": 3,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Tornio",
+      "kaikki": 900,
+      "vk": 39,
+      "osuus": 4.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Turku",
+      "kaikki": 7922,
+      "vk": 1893,
+      "osuus": 23.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Tuusniemi",
+      "kaikki": 47,
+      "vk": 2,
+      "osuus": 4.3,
+      "epavarma": true
+    },
+    {
+      "kunta": "Tuusula",
+      "kaikki": 1957,
+      "vk": 203,
+      "osuus": 10.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Tyrnävä",
+      "kaikki": 430,
+      "vk": 2,
+      "osuus": 0.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ulvila",
+      "kaikki": 477,
+      "vk": 15,
+      "osuus": 3.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Urjala",
+      "kaikki": 130,
+      "vk": 4,
+      "osuus": 3.1,
+      "epavarma": false
+    },
+    {
+      "kunta": "Utajärvi",
+      "kaikki": 88,
+      "vk": 10,
+      "osuus": 11.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Utsjoki",
+      "kaikki": 29,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Uurainen",
+      "kaikki": 175,
+      "vk": 1,
+      "osuus": 0.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Uusikaarlepyy",
+      "kaikki": 335,
+      "vk": 39,
+      "osuus": 11.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Uusikaupunki",
+      "kaikki": 458,
+      "vk": 95,
+      "osuus": 20.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vaala",
+      "kaikki": 72,
+      "vk": 6,
+      "osuus": 8.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vaasa",
+      "kaikki": 2975,
+      "vk": 574,
+      "osuus": 19.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Valkeakoski",
+      "kaikki": 820,
+      "vk": 59,
+      "osuus": 7.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vantaa",
+      "kaikki": 12602,
+      "vk": 4361,
+      "osuus": 34.6,
+      "epavarma": false
+    },
+    {
+      "kunta": "Varkaus",
+      "kaikki": 639,
+      "vk": 60,
+      "osuus": 9.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vehmaa",
+      "kaikki": 69,
+      "vk": 4,
+      "osuus": 5.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vesanto",
+      "kaikki": 28,
+      "vk": 0,
+      "osuus": 0.0,
+      "epavarma": true
+    },
+    {
+      "kunta": "Vesilahti",
+      "kaikki": 238,
+      "vk": 3,
+      "osuus": 1.3,
+      "epavarma": false
+    },
+    {
+      "kunta": "Veteli",
+      "kaikki": 80,
+      "vk": 7,
+      "osuus": 8.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vieremä",
+      "kaikki": 81,
+      "vk": 6,
+      "osuus": 7.4,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vihti",
+      "kaikki": 1290,
+      "vk": 116,
+      "osuus": 9.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Viitasaari",
+      "kaikki": 150,
+      "vk": 4,
+      "osuus": 2.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vimpeli",
+      "kaikki": 0,
+      "vk": 0,
+      "osuus": null,
+      "epavarma": false
+    },
+    {
+      "kunta": "Virolahti",
+      "kaikki": 72,
+      "vk": 2,
+      "osuus": 2.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Virrat",
+      "kaikki": 187,
+      "vk": 13,
+      "osuus": 7.0,
+      "epavarma": false
+    },
+    {
+      "kunta": "Vöyri",
+      "kaikki": 280,
+      "vk": 35,
+      "osuus": 12.5,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ylitornio",
+      "kaikki": 101,
+      "vk": 10,
+      "osuus": 9.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ylivieska",
+      "kaikki": 767,
+      "vk": 14,
+      "osuus": 1.8,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ylöjärvi",
+      "kaikki": 1884,
+      "vk": 51,
+      "osuus": 2.7,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ypäjä",
+      "kaikki": 65,
+      "vk": 6,
+      "osuus": 9.2,
+      "epavarma": false
+    },
+    {
+      "kunta": "Ähtäri",
+      "kaikki": 170,
+      "vk": 10,
+      "osuus": 5.9,
+      "epavarma": false
+    },
+    {
+      "kunta": "Äänekoski",
+      "kaikki": 587,
+      "vk": 21,
+      "osuus": 3.6,
+      "epavarma": false
+    }
+  ]
+}

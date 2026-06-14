@@ -1,0 +1,223 @@
+:root {
+  /* Teemaväri: rauhallinen petrooli. Vaihto = muuta nämä kaksi riviä. */
+  --aksentti: #0e6e55;
+  --aksentti-bg: #e2f4ee;
+
+  --ink: #1a1a1a;
+  --muted: #565651;
+  --hint: #6b6b68;
+  --viiva: #e3e1d9;
+  --bg: #faf9f6;
+  --kortti: #ffffff;
+  --varoitus: #8a5a00;
+  --varoitus-bg: #faeeda;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+/* Mobile-first: yksi kapea sarake */
+.sovellus {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 18px 40px;
+}
+
+.otsikko h1 {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.otsikko__ala {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 24px;
+}
+
+/* Valitsin */
+.valitsin label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.valitsin select {
+  width: 100%;
+  height: 48px; /* iso kosketuskohde mobiilissa */
+  padding: 0 12px;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--kortti);
+  border: 1px solid var(--viiva);
+  border-radius: 10px;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23565651' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.valitsin select:focus-visible {
+  outline: 3px solid var(--aksentti);
+  outline-offset: 2px;
+  border-color: var(--aksentti);
+}
+
+.tulosalue { margin-top: 22px; }
+
+.kehote {
+  color: var(--muted);
+  font-size: 0.95rem;
+  background: var(--kortti);
+  border: 1px dashed var(--viiva);
+  border-radius: 10px;
+  padding: 18px;
+  margin: 0;
+}
+
+/* Tulos */
+.tulos {
+  background: var(--aksentti-bg);
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.tulos--epavarma {
+  background: var(--varoitus-bg);
+}
+.tulos--tyhja {
+  background: var(--kortti);
+  border: 1px solid var(--viiva);
+}
+.tulos__luku {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: var(--aksentti);
+  font-variant-numeric: tabular-nums;
+}
+.tulos--epavarma .tulos__luku { color: var(--varoitus); }
+.tulos__raaka {
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin: 6px 0 0;
+}
+.tulos__varoitus {
+  font-size: 0.85rem;
+  color: var(--varoitus);
+  margin: 10px 0 0;
+}
+.tulos__eitietoa {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 0;
+}
+.tulos__selite {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 6px 0 0;
+}
+
+/* Jakauma */
+.jakauma { margin-top: 24px; }
+.jakauma__otsikko {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 0 0 30px;
+}
+.jakauma__jana {
+  position: relative;
+  height: 52px;
+  margin: 0 0 10px;
+}
+.jakauma__viiva {
+  position: absolute;
+  top: 18px;
+  left: 0; right: 0;
+  height: 4px;
+  background: var(--viiva);
+  border-radius: 2px;
+}
+.jakauma__merkki {
+  position: absolute;
+  top: 14px;
+  width: 2px;
+  height: 12px;
+  transform: translateX(-1px);
+}
+.jakauma__merkki--mediaani { background: var(--hint); }
+.jakauma__merkki--maa { background: var(--muted); }
+.jakauma__lipuke {
+  position: absolute;
+  top: -8px;
+  transform: translateX(-50%);
+  font-size: 0.72rem;
+  white-space: nowrap;
+  color: var(--muted);
+}
+.jakauma__lipuke--mediaani { color: var(--hint); }
+.jakauma__kunta {
+  position: absolute;
+  top: 11px;
+  width: 14px;
+  height: 14px;
+  transform: translateX(-7px);
+  background: var(--aksentti);
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+}
+.jakauma__kunta-nimi {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--aksentti);
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jakauma__lause {
+  font-size: 0.95rem;
+  margin: 18px 0 0;
+}
+.jakauma__huom {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+
+/* Lähde */
+.lahde {
+  margin-top: 32px;
+  padding-top: 14px;
+  border-top: 1px solid var(--viiva);
+}
+.lahde p {
+  font-size: 0.78rem;
+  color: var(--hint);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Hieman väljyyttä isommilla näytöillä */
+@media (min-width: 600px) {
+  .sovellus { padding-top: 40px; }
+  .otsikko h1 { font-size: 1.6rem; }
+  .tulos__luku { font-size: 3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
