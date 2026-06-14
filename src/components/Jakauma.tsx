@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { ReactNode } from "react";
 import type { Kunta } from "../types";
 import { pros, persentiili } from "../laske";
@@ -19,6 +20,7 @@ interface Props {
 
 export default function Jakauma({ kunta, kokoMaa, mediaani, kunnat }: Props) {
   if (kunta.osuus === null) return null;
+  const [taulukkoAuki, setTaulukkoAuki] = useState(false);
 
   // Skaala 0..max. Suomen korkein kuntaosuus on n. 41 %.
   const max = Math.max(45, Math.ceil(kunta.osuus));
@@ -43,13 +45,24 @@ export default function Jakauma({ kunta, kokoMaa, mediaani, kunnat }: Props) {
         Suhteessa muuhun Suomeen
       </h2>
 
+      <p className="jakauma__vertailu">
+        Koko maa: <strong>{pros(kokoMaa)}</strong> — mediaani: <strong>{pros(mediaani)}</strong>
+      </p>
+
+      <div className="jakauma__lipukkeet" aria-hidden="true">
+        <div className="jakauma__lipuke-rivi">
+          <span className="jakauma__lipuke jakauma__lipuke--mediaani" style={{ left: sija(mediaani) }}>mediaani {pros(mediaani)}</span>
+        </div>
+        <div className="jakauma__lipuke-rivi">
+          <span className="jakauma__lipuke" style={{ left: sija(kokoMaa) }}>koko maa {pros(kokoMaa)}</span>
+        </div>
+      </div>
+
       <div className="jakauma__jana" role="img" aria-label={seliteTeksti}>
         <div className="jakauma__viiva" role="presentation" />
-        <div className="jakauma__merkki jakauma__merkki--mediaani" role="presentation" style={{ left: sija(mediaani) }} aria-hidden="true" />
-        <span className="jakauma__lipuke jakauma__lipuke--mediaani" style={{ left: sija(mediaani) }} aria-hidden="true">mediaani {pros(mediaani)}</span>
-        <div className="jakauma__merkki jakauma__merkki--maa" role="presentation" style={{ left: sija(kokoMaa) }} aria-hidden="true" />
-        <span className="jakauma__lipuke" style={{ left: sija(kokoMaa) }} aria-hidden="true">koko maa {pros(kokoMaa)}</span>
-        <div className="jakauma__kunta" role="presentation" style={{ left: sija(kunta.osuus) }} aria-hidden="true">
+        <div className="jakauma__merkki jakauma__merkki--mediaani" role="presentation" style={{ left: sija(mediaani) }} />
+        <div className="jakauma__merkki jakauma__merkki--maa" role="presentation" style={{ left: sija(kokoMaa) }} />
+        <div className="jakauma__kunta" role="presentation" style={{ left: sija(kunta.osuus) }}>
           <span className="jakauma__kunta-nimi" style={kuntaNimiStyle}>{kunta.kunta}</span>
         </div>
       </div>
@@ -59,6 +72,42 @@ export default function Jakauma({ kunta, kokoMaa, mediaani, kunnat }: Props) {
         Koko maan osuus ({pros(kokoMaa)}) on suurten kaupunkien painottama.
         Mediaani ({pros(mediaani)}) kuvaa tyypillistä kuntaa paremmin.
       </p>
+
+      <button
+        className="jakauma__taulukko-nappi"
+        onClick={() => setTaulukkoAuki(v => !v)}
+        aria-expanded={taulukkoAuki}
+      >
+        {taulukkoAuki ? "Piilota taulukko" : "Näytä tiedot taulukkona"}
+      </button>
+
+      {taulukkoAuki && (
+        <table className="jakauma__taulukko">
+          <caption className="sr-only">
+            Vertailu: {kunta.kunta} suhteessa muuhun Suomeen
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Alue</th>
+              <th scope="col">Osuus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{kunta.kunta}</td>
+              <td>{pros(kunta.osuus)}</td>
+            </tr>
+            <tr>
+              <td>Koko maa</td>
+              <td>{pros(kokoMaa)}</td>
+            </tr>
+            <tr>
+              <td>Kuntien mediaani</td>
+              <td>{pros(mediaani)}</td>
+            </tr>
+          </tbody>
+        </table>
+      )}
     </section>
   );
 }

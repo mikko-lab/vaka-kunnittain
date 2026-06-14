@@ -128,20 +128,43 @@ body {
 
 /* Jakauma */
 .jakauma { margin-top: 24px; }
+.jakauma__vertailu {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
 .jakauma__otsikko {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--muted);
-  margin: 0 0 30px;
+  margin: 0 0 6px;
 }
+.jakauma__lipukkeet {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+.jakauma__lipuke-rivi {
+  position: relative;
+  height: 1.2rem;
+}
+.jakauma__lipuke {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  font-size: 0.72rem;
+  white-space: nowrap;
+  color: var(--muted);
+}
+.jakauma__lipuke--mediaani { color: var(--hint); }
 .jakauma__jana {
   position: relative;
-  height: 52px;
+  height: 40px;
   margin: 0 0 10px;
 }
 .jakauma__viiva {
   position: absolute;
-  top: 18px;
+  top: 6px;
   left: 0; right: 0;
   height: 4px;
   background: var(--viiva);
@@ -149,25 +172,16 @@ body {
 }
 .jakauma__merkki {
   position: absolute;
-  top: 14px;
+  top: 2px;
   width: 2px;
   height: 12px;
   transform: translateX(-1px);
 }
 .jakauma__merkki--mediaani { background: var(--hint); }
 .jakauma__merkki--maa { background: var(--muted); }
-.jakauma__lipuke {
-  position: absolute;
-  top: -8px;
-  transform: translateX(-50%);
-  font-size: 0.72rem;
-  white-space: nowrap;
-  color: var(--muted);
-}
-.jakauma__lipuke--mediaani { color: var(--hint); }
 .jakauma__kunta {
   position: absolute;
-  top: 11px;
+  top: 1px;
   width: 14px;
   height: 14px;
   transform: translateX(-7px);
@@ -198,6 +212,49 @@ body {
   margin: 8px 0 0;
 }
 
+.jakauma__taulukko-nappi {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: var(--aksentti);
+  background: none;
+  border: 1px solid var(--aksentti);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  display: block;
+}
+.jakauma__taulukko-nappi:focus-visible {
+  outline: 3px solid var(--aksentti);
+  outline-offset: 2px;
+}
+.jakauma__taulukko {
+  margin-top: 12px;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.jakauma__taulukko th,
+.jakauma__taulukko td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--viiva);
+}
+.jakauma__taulukko th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 /* Lähde */
 .lahde {
   margin-top: 32px;
@@ -220,4 +277,19 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --aksentti: #1ab88a;
+    --aksentti-bg: #0d2b20;
+    --ink: #f0ede8;
+    --muted: #a8a8a3;
+    --hint: #858580;
+    --viiva: #3a3835;
+    --bg: #1c1c1a;
+    --kortti: #262623;
+    --varoitus: #f0b840;
+    --varoitus-bg: #2d1e08;
+  }
 }
