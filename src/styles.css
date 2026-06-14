@@ -7,6 +7,7 @@
   --muted: #565651;
   --hint: #6b6b68;
   --viiva: #e3e1d9;
+  --reuna: #8a897f;
   --bg: #faf9f6;
   --kortti: #ffffff;
   --varoitus: #8a5a00;
@@ -58,7 +59,7 @@ body {
   font-size: 1rem;
   color: var(--ink);
   background: var(--kortti);
-  border: 1px solid var(--viiva);
+  border: 1px solid var(--reuna);
   border-radius: 10px;
   appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23565651' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
@@ -198,6 +199,7 @@ body {
   font-weight: 600;
   white-space: nowrap;
   color: var(--aksentti);
+  background: var(--bg);
   max-width: 90px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -291,5 +293,9 @@ body {
     --kortti: #262623;
     --varoitus: #f0b840;
     --varoitus-bg: #2d1e08;
+    --reuna: #6f6e69;
+  }
+  .valitsin select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23a8a8a3' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   }
 }
