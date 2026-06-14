@@ -4,6 +4,7 @@ import rawData from "./data.json";
 import Valitsin from "./components/Valitsin";
 import Tulos from "./components/Tulos";
 import Jakauma from "./components/Jakauma";
+import { ilmoitusTeksti } from "./laske";
 
 const data = rawData as Data;
 
@@ -22,7 +23,11 @@ export default function App() {
 
       <Valitsin kunnat={data.kunnat} valittu={valittu} onChange={setValittu} />
 
-      <div className="tulosalue" aria-live="polite">
+      <p className="sr-only" aria-live="polite" role="status">
+        {kunta ? ilmoitusTeksti(kunta, data.kuntienMediaani, data.kunnat) : ""}
+      </p>
+
+      <div className="tulosalue">
         {kunta === null ? (
           <p className="kehote">Valitse kunta nähdäksesi sen osuuden ja vertailun koko maahan.</p>
         ) : (
